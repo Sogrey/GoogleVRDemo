@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\AS\\_pros\\VR\\gvr\\samples\\simplevideowidget\\build\\intermediates\\res\\merged\\debug\\layout\\ui_view_embed.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b479ae04d6ac088dd7fcc37a2479f142159ef179\\output\\res\\layout\\ui_view_embed.xml"
+    },
+    {
+        "merged": "F:\\AS\\_pros\\VR\\gvr\\samples\\simplevideowidget\\build\\intermediates\\res\\merged\\debug\\layout\\ui_layer.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b6e7149f907970e693d4e7a01a2d9d14eccafa1f\\output\\res\\layout\\ui_layer.xml"
+    },
+    {
+        "merged": "F:\\AS\\_pros\\VR\\gvr\\samples\\simplevideowidget\\build\\intermediates\\res\\merged\\debug\\layout\\transition_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b6e7149f907970e693d4e7a01a2d9d14eccafa1f\\output\\res\\layout\\transition_view.xml"
+    },
+    {
+        "merged": "F:\\AS\\_pros\\VR\\gvr\\samples\\simplevideowidget\\build\\intermediates\\res\\merged\\debug\\layout\\ui_layer_with_portrait_support.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b6e7149f907970e693d4e7a01a2d9d14eccafa1f\\output\\res\\layout\\ui_layer_with_portrait_support.xml"
+    },
+    {
+        "merged": "F:\\AS\\_pros\\VR\\gvr\\samples\\simplevideowidget\\build\\intermediates\\res\\merged\\debug\\layout\\back_button.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\b6e7149f907970e693d4e7a01a2d9d14eccafa1f\\output\\res\\layout\\back_button.xml"
+    },
+    {
+        "merged": "F:\\AS\\_pros\\VR\\gvr\\samples\\simplevideowidget\\build\\intermediates\\res\\merged\\debug\\layout\\main_layout.xml",
+        "source": "F:\\AS\\_pros\\VR\\gvr\\samples\\simplevideowidget\\src\\main\\res\\layout\\main_layout.xml"
+    }
+]

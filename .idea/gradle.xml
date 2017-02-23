@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:/软件/android-studio-ide-145.3360264-windows/android-studio/gradle/gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app/app_gvrdemo" />
+            <option value="$PROJECT_DIR$/libraries/audio" />
+            <option value="$PROJECT_DIR$/libraries/base" />
+            <option value="$PROJECT_DIR$/libraries/common" />
+            <option value="$PROJECT_DIR$/libraries/commonwidget" />
+            <option value="$PROJECT_DIR$/libraries/controller" />
+            <option value="$PROJECT_DIR$/libraries/panowidget" />
+            <option value="$PROJECT_DIR$/libraries/videowidget" />
+            <option value="$PROJECT_DIR$/samples/controllerclient" />
+            <option value="$PROJECT_DIR$/samples/simplepanowidget" />
+            <option value="$PROJECT_DIR$/samples/simplevideowidget" />
+            <option value="$PROJECT_DIR$/samples/treasurehunt" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

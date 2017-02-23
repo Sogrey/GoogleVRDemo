@@ -1,0 +1,69 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml:2:1-18:12
+	package
+		ADDED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml:3:3-55
+	android:versionName
+		INJECTED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml
+		INJECTED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml
+		INJECTED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml:4:3-72
+MERGED from [gvr:libraries-base:unspecified] C:\Users\Administrator\.android\build-cache\8965ae14bb3caedffda6bcbb0f7d2e400280ab4a\output\AndroidManifest.xml:4:5-73
+MERGED from [gvr:libraries-common:unspecified] C:\Users\Administrator\.android\build-cache\b6e7149f907970e693d4e7a01a2d9d14eccafa1f\output\AndroidManifest.xml:5:5-7:41
+	android:targetSdkVersion
+		ADDED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml:4:40-69
+		INJECTED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml
+		INJECTED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml:4:13-39
+		INJECTED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml
+		INJECTED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml
+application
+ADDED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml:6:3-17:17
+MERGED from [gvr:libraries-controller:unspecified] C:\Users\Administrator\.android\build-cache\7f6277fc00ac77dabef207f870a0a2278f60b7ff\output\AndroidManifest.xml:5:5-6:19
+	android:label
+		ADDED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml:7:5-37
+	android:theme
+		ADDED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml:8:5-52
+activity#com.google.vr.sdk.samples.controllerclient.ControllerClientActivity
+ADDED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml:9:5-16:16
+	android:screenOrientation
+		ADDED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml:11:7-43
+	android:name
+		ADDED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml:10:7-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml:12:7-15:23
+action#android.intent.action.MAIN
+ADDED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml:13:9-60
+	android:name
+		ADDED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml:13:17-58
+category#android.intent.category.LAUNCHER
+ADDED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml:14:9-68
+	android:name
+		ADDED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml:14:19-66
+uses-feature#0x00020000
+ADDED from [gvr:libraries-base:unspecified] C:\Users\Administrator\.android\build-cache\8965ae14bb3caedffda6bcbb0f7d2e400280ab4a\output\AndroidManifest.xml:5:5-77
+	android:glEsVersion
+		ADDED from [gvr:libraries-base:unspecified] C:\Users\Administrator\.android\build-cache\8965ae14bb3caedffda6bcbb0f7d2e400280ab4a\output\AndroidManifest.xml:5:19-51
+	android:required
+		ADDED from [gvr:libraries-base:unspecified] C:\Users\Administrator\.android\build-cache\8965ae14bb3caedffda6bcbb0f7d2e400280ab4a\output\AndroidManifest.xml:5:52-75
+uses-permission#android.permission.NFC
+ADDED from [gvr:libraries-base:unspecified] C:\Users\Administrator\.android\build-cache\8965ae14bb3caedffda6bcbb0f7d2e400280ab4a\output\AndroidManifest.xml:6:5-61
+	android:name
+		ADDED from [gvr:libraries-base:unspecified] C:\Users\Administrator\.android\build-cache\8965ae14bb3caedffda6bcbb0f7d2e400280ab4a\output\AndroidManifest.xml:6:22-59
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [gvr:libraries-base:unspecified] C:\Users\Administrator\.android\build-cache\8965ae14bb3caedffda6bcbb0f7d2e400280ab4a\output\AndroidManifest.xml:7:5-79
+IMPLIED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml:2:1-18:12 reason: com.google.vr.sdk.base requested WRITE_EXTERNAL_STORAGE
+	android:name
+		ADDED from [gvr:libraries-base:unspecified] C:\Users\Administrator\.android\build-cache\8965ae14bb3caedffda6bcbb0f7d2e400280ab4a\output\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [gvr:libraries-base:unspecified] C:\Users\Administrator\.android\build-cache\8965ae14bb3caedffda6bcbb0f7d2e400280ab4a\output\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from [gvr:libraries-base:unspecified] C:\Users\Administrator\.android\build-cache\8965ae14bb3caedffda6bcbb0f7d2e400280ab4a\output\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from F:\AS\_pros\VR\gvr\samples\controllerclient\src\main\AndroidManifest.xml:2:1-18:12 reason: com.google.vr.sdk.controller has a targetSdkVersion < 4

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "F:\\AS\\_pros\\VR\\gvr\\samples\\controllerclient\\build\\intermediates\\res\\merged\\debug\\layout\\ui_layer_with_portrait_support.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8965ae14bb3caedffda6bcbb0f7d2e400280ab4a\\output\\res\\layout\\ui_layer_with_portrait_support.xml"
+    },
+    {
+        "merged": "F:\\AS\\_pros\\VR\\gvr\\samples\\controllerclient\\build\\intermediates\\res\\merged\\debug\\layout\\ui_layer.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8965ae14bb3caedffda6bcbb0f7d2e400280ab4a\\output\\res\\layout\\ui_layer.xml"
+    },
+    {
+        "merged": "F:\\AS\\_pros\\VR\\gvr\\samples\\controllerclient\\build\\intermediates\\res\\merged\\debug\\layout\\transition_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8965ae14bb3caedffda6bcbb0f7d2e400280ab4a\\output\\res\\layout\\transition_view.xml"
+    },
+    {
+        "merged": "F:\\AS\\_pros\\VR\\gvr\\samples\\controllerclient\\build\\intermediates\\res\\merged\\debug\\layout\\back_button.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\8965ae14bb3caedffda6bcbb0f7d2e400280ab4a\\output\\res\\layout\\back_button.xml"
+    },
+    {
+        "merged": "F:\\AS\\_pros\\VR\\gvr\\samples\\controllerclient\\build\\intermediates\\res\\merged\\debug\\layout\\main_layout.xml",
+        "source": "F:\\AS\\_pros\\VR\\gvr\\samples\\controllerclient\\src\\main\\res\\layout\\main_layout.xml"
+    }
+]

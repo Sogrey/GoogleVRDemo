@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "F:\\AS\\_pros\\VR\\gvr\\samples\\simplepanowidget\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 92,
+                    "endOffset": 143
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\b6e7149f907970e693d4e7a01a2d9d14eccafa1f\\output\\res\\values-v21\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 195,
+                        "endColumn": 92,
+                        "endOffset": 283
+                    }
+                }
+            }
+        ]
+    }
+]

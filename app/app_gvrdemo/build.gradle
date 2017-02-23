@@ -1,0 +1,62 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        applicationId "org.sogrey.gvr.demo"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    tasks.whenTaskAdded { task ->
+        if (task.name.contains("lint")//如果instant run不生效，把clean这行干掉
+                ||task.name.equals("clean")//项目中有用到aidl则不可以舍弃这个任务
+                ||task.name.contains("Aidl")//用不到测试的时候就可以先关闭
+                ||task.name.contains("mockableAndroidJar")
+                ||task.name.contains("UnitTest")
+                ||task.name.contains("AndroidTest")//用不到NDK和JNI的也关闭掉
+                || task.name.contains("Ndk")
+                || task.name.contains("Jni")
+        ) {
+            task.enabled = false
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    //compile project(':libraries-audio') //audio库 //三维空间化的声音库。对应com.google.vr.sdk.audio包
+    //compile project(':libraries-base') //base库 //Google VR核心的 API。对应com.google.vr.sdk.base包
+    //compile project(':libraries-controller') //controller库 //Daydream的控制器所在库。对应com.google.vr.sdk.controller包
+    compile project(':libraries-common')
+    //common库 //通用库。没有找到对应包的介绍，但实际这个库下有三个包分别是com.google.protobuf.nano、com.google.vr.*、com.google.vrtoolkit.cardboard。
+    compile project(':libraries-commonwidget')
+    //commonwidget库 //播放VR视频控件和播放VR全景视图的控件的共有库（服务于pano 库和video 的）。对应com.google.vr.sdk.widgets.common包
+    compile project(':libraries-panowidget')
+    //panowidget库 //Google为我们提供 播放VR全景视图的控件 所在库。对应com.google.vr.sdk.widgets.pano包
+    compile project(':libraries-videowidget')
+    //videowidget库 //Google为我们提供 播放VR视频的控件 所在库。对应com.google.vr.sdk.widgets.video包
+
+    //GvrActivity：是使用谷歌VR SDK制作应用程序的起点。GvrActivity是base activity,提供与谷歌轻松集成虚拟现实设备。它暴露事件的VR环境进行交互和处理了许多创造VR渲染一个活动时通常需要的细节。
+    //GvrView.StereoRenderer接口：为所有委托立体渲染细节视图渲染。因为他们通常不使用提供的转换参数实现者应该简单地呈现视图。所有的立体渲染和失真校正的细节与渲染抽象和视图内部管理。
+    //GvrView：可用于VR渲染。GvrView渲染立体声内容
+    compile 'com.android.support:appcompat-v7:25.1.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-beta4'
+    testCompile 'junit:junit:4.12'
+}

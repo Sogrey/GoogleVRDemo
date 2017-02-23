@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app_gvrdemo/app-app_gvrdemo.iml" filepath="$PROJECT_DIR$/app/app_gvrdemo/app-app_gvrdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gvr.iml" filepath="$PROJECT_DIR$/gvr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/audio/libraries-audio.iml" filepath="$PROJECT_DIR$/libraries/audio/libraries-audio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/base/libraries-base.iml" filepath="$PROJECT_DIR$/libraries/base/libraries-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/common/libraries-common.iml" filepath="$PROJECT_DIR$/libraries/common/libraries-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/commonwidget/libraries-commonwidget.iml" filepath="$PROJECT_DIR$/libraries/commonwidget/libraries-commonwidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/controller/libraries-controller.iml" filepath="$PROJECT_DIR$/libraries/controller/libraries-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/panowidget/libraries-panowidget.iml" filepath="$PROJECT_DIR$/libraries/panowidget/libraries-panowidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/videowidget/libraries-videowidget.iml" filepath="$PROJECT_DIR$/libraries/videowidget/libraries-videowidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/controllerclient/samples-controllerclient.iml" filepath="$PROJECT_DIR$/samples/controllerclient/samples-controllerclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/simplepanowidget/samples-simplepanowidget.iml" filepath="$PROJECT_DIR$/samples/simplepanowidget/samples-simplepanowidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/simplevideowidget/samples-simplevideowidget.iml" filepath="$PROJECT_DIR$/samples/simplevideowidget/samples-simplevideowidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/treasurehunt/samples-treasurehunt.iml" filepath="$PROJECT_DIR$/samples/treasurehunt/samples-treasurehunt.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,103 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:2:1-37:12
+	package
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:3:11-59
+	android:versionName
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:5:11-34
+		INJECTED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml
+		INJECTED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:4:11-34
+		INJECTED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml
+		INJECTED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.NFC
+ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:8:5-62
+MERGED from [gvr:libraries-base:unspecified] C:\Users\Administrator\.android\build-cache\8965ae14bb3caedffda6bcbb0f7d2e400280ab4a\output\AndroidManifest.xml:6:5-61
+	android:name
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:8:22-59
+uses-permission#android.permission.VIBRATE
+ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:9:22-63
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:10:5-80
+MERGED from [gvr:libraries-base:unspecified] C:\Users\Administrator\.android\build-cache\8965ae14bb3caedffda6bcbb0f7d2e400280ab4a\output\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:10:22-77
+uses-feature#android.hardware.sensor.accelerometer
+ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:13:5-97
+	android:required
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:13:72-95
+	android:name
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:13:19-71
+uses-feature#android.hardware.sensor.gyroscope
+ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:14:5-93
+	android:required
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:14:68-91
+	android:name
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:14:19-67
+uses-sdk
+ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:16:5-73
+MERGED from [gvr:libraries-audio:unspecified] C:\Users\Administrator\.android\build-cache\451ebde3d70b20191720c72a781d642d6b829899\output\AndroidManifest.xml:5:5-7:41
+MERGED from [gvr:libraries-base:unspecified] C:\Users\Administrator\.android\build-cache\8965ae14bb3caedffda6bcbb0f7d2e400280ab4a\output\AndroidManifest.xml:4:5-73
+MERGED from [gvr:libraries-common:unspecified] C:\Users\Administrator\.android\build-cache\b6e7149f907970e693d4e7a01a2d9d14eccafa1f\output\AndroidManifest.xml:5:5-7:41
+	android:targetSdkVersion
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:16:42-71
+		INJECTED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml
+		INJECTED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:16:15-41
+		INJECTED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml
+		INJECTED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:17:5-78
+MERGED from [gvr:libraries-base:unspecified] C:\Users\Administrator\.android\build-cache\8965ae14bb3caedffda6bcbb0f7d2e400280ab4a\output\AndroidManifest.xml:5:5-77
+	android:glEsVersion
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:17:19-51
+	android:required
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:17:52-75
+application
+ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:19:5-35:19
+	android:label
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:23:13-45
+	android:supportsRtl
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:21:13-39
+	android:allowBackup
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:20:13-39
+	android:icon
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:22:13-49
+activity#com.google.vr.sdk.samples.treasurehunt.TreasureHuntActivity
+ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:24:9-34:20
+	android:screenOrientation
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:27:17-54
+	android:label
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:26:17-49
+	android:configChanges
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:28:17-78
+	android:name
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:25:17-53
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER+com.google.intent.category.CARDBOARD
+ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:29:13-33:29
+action#android.intent.action.MAIN
+ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:31:27-74
+category#com.google.intent.category.CARDBOARD
+ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:32:17-81
+	android:name
+		ADDED from F:\AS\_pros\VR\gvr\samples\treasurehunt\src\main\AndroidManifest.xml:32:27-78
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [gvr:libraries-base:unspecified] C:\Users\Administrator\.android\build-cache\8965ae14bb3caedffda6bcbb0f7d2e400280ab4a\output\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from [gvr:libraries-base:unspecified] C:\Users\Administrator\.android\build-cache\8965ae14bb3caedffda6bcbb0f7d2e400280ab4a\output\AndroidManifest.xml:8:22-78

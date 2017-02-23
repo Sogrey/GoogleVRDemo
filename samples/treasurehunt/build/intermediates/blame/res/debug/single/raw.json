@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\AS\\_pros\\VR\\gvr\\samples\\treasurehunt\\build\\intermediates\\res\\merged\\debug\\raw\\passthrough_fragment.shader",
+        "source": "F:\\AS\\_pros\\VR\\gvr\\samples\\treasurehunt\\src\\main\\res\\raw\\passthrough_fragment.shader"
+    },
+    {
+        "merged": "F:\\AS\\_pros\\VR\\gvr\\samples\\treasurehunt\\build\\intermediates\\res\\merged\\debug\\raw\\grid_fragment.shader",
+        "source": "F:\\AS\\_pros\\VR\\gvr\\samples\\treasurehunt\\src\\main\\res\\raw\\grid_fragment.shader"
+    },
+    {
+        "merged": "F:\\AS\\_pros\\VR\\gvr\\samples\\treasurehunt\\build\\intermediates\\res\\merged\\debug\\raw\\light_vertex.shader",
+        "source": "F:\\AS\\_pros\\VR\\gvr\\samples\\treasurehunt\\src\\main\\res\\raw\\light_vertex.shader"
+    }
+]
